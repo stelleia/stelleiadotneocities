@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Stella Yoo | Say hi</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet"/>
+    
+    <meta charset="UTF-8">
+	<meta name="description" content="Stella Yoo creative portfolio website contact form page to send a message or an email">
+	<meta name="keywords" content="stella yoo, creative, writing, los angeles, usc, university of southern california, student, contact, email, message, send">
+	<meta name="author" content="Stella">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+    input, textarea {
+        font-family: "Manrope", sans-serif;
+        font-weight: 500;
+        text-align: left;
+        padding-top: 0;
+    }
+
+    .form-row {
+        background-color: #fff;
+        padding: 10px;
+        margin: 10px;
+        border: 2px #447724;
+        border-style: solid;
+        float: left;
+        border-radius: 25px;
+        overflow: hidden;
+    }
+
+    #message .form-row {
+        width: 650px;
+        padding: 10px;
+        border: none;
+        float: left;
+        border: 2px #447724;
+        border-style: solid;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    #name {
+        border: none;
+        width: 300px;
+    }
+    #email {
+        border: none;
+        width: 300px;
+        float: left;
+    }
+
+    #message {
+        border: none;
+        width: 645px;
+        height: 100px;
+    }
+
+    button {
+        border: none;
+        background-color: #fff;
+    }
+
+    #submit-btn {
+    padding: 5px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+    color: #447724;
+    }
+
+    #containerrightcontent a {
+        text-decoration: none;
+        font-style: italic;
+        font-family: "Alpina", serif;
+        font-weight: 600;
+        color:#447724;
+    }
+    #containerrightcontent a:hover {
+        font-family: "Alpina", serif;
+        font-weight: 600;
+        color:#447724;
+        text-decoration: underline;
+        text-decoration-style: wavy;
+        text-decoration-color: #447724;
+    }
+
+
+</style>
+</head>
+<body>
+
+<div id="containerleft">
+    <div id="header">
+        <h1>Stella Yoo</h1>
+        <br>
+        <br>
+    </div>
+
+    <div id="nav">
+    <a href="index.html">
+        <img src="logo.png" alt="logo of flower"/></a>
+    <br>
+    <a href="work.html">Work</a>
+    <br>
+    <a href="play.html">Play</a>
+    <br>
+    <a href="contact.html" class="active">Say hi</a>
+    </div>
+</div>
+
+<div id="containerright">
+    <div id="containerrightcontent">
+    <h2>drop me a line!</h2>
+    <p>you can email me 
+        <a href="mailto:stella0704@gmail.com">here</a>
+    <br>
+    <br>
+    or fill out the form below:</p>
+
+<div id="formcontainer">
+    <form action="thanks.html">
+
+
+        <div class="form-row">
+            <label class="main-label" for="name"></label>
+            <input id="name" type="text" placeholder="Name" required/>
+        </div>
+
+        <div class="form-row">
+            <label class="main-label" for="email"></label>
+            <input id="email" type="email" placeholder="Email" required />
+        </div>
+
+        <div class="clearfloat"></div>
+
+
+        <div class="form-row">
+            <label class="main-label" for="message"></label>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+        </div>
+
+        <div class="clearfloat"></div>
+        
+        <div class="form-row">
+            <button id="submit-btn" type="submit">Send</button>
+        </div>
+    </form>
+</div>
+</div>
+</div>
+
+</body>
+</html>

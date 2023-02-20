@@ -1,0 +1,105 @@
+@font-face {
+    font-family: "Alpina";
+    src: url("fonts/GT-Alpina-Italic-VAR-Trial.ttf");
+}
+
+body {
+font-family: "Manrope", sans-serif;
+background-color: #fff;
+}
+
+#containerleft {
+width: 25%;
+height: 100%;
+background-color: #fff;
+position: fixed;
+bottom: 0px;
+left: 0px;
+}
+
+#containerright {
+width: 75%;
+height: 100%;
+background-color: #f3a4359e;
+position: fixed;
+bottom: 0px;
+right: 0px;
+overflow-y: scroll;
+}
+
+#containerrightcontent {
+padding: 50px 30px 0px 30px;
+}
+
+#header {
+padding-top: 50px;
+padding-left: 40px;
+}    
+
+h1 {
+color: #447734;
+text-decoration: none;
+font-size: 40px;
+font-weight: 700;
+text-align: left;
+}
+
+img {
+width: 40%;
+height: auto;
+padding-top: 40px;
+}
+
+#nav {
+padding-top: 20px;
+padding-left: 40px;
+text-align: left;
+}
+
+#nav a {
+    color: #447734;
+    text-decoration: none;
+    font-size: 25px;
+    line-height: 50px;
+}
+
+#nav a .active {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    color: #447734;
+    text-decoration-color: #447724;
+
+}
+
+#nav a:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    color: #447734;
+}
+
+#containerright h2 {
+color: #447724;
+font-family: "Alpina", serif;
+font-size: 45px;
+font-weight: 600;
+}
+
+#containerright p {
+color: #447724;
+font-size: 28px;
+font-weight: 600;
+font-family: "Manrope", sans-serif;
+}
+
+#containerright em:hover {
+color: #447724;
+font-family: "Alpina", serif;
+font-size: 35px;
+font-weight: 100;
+
+}
+
+.clearfloat {
+clear: both;
+}
+
